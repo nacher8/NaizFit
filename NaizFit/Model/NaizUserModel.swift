@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Info Model User
 public struct NaizUserModel: Codable, Hashable {
     var id: String
     var name: String

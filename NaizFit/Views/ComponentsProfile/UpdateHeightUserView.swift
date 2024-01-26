@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Custom pop up to change the height.
 struct UpdateHeightUserView: View {
     @EnvironmentObject var viewModel: ProfileViewModel
     @State private var offset: CGFloat = 100

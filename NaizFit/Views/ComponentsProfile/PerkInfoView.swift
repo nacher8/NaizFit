@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// A view with all information about the PERK.
 struct PerkInfoView: View {
     
     var perkInfo: NaizPerkModel

@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Enum with different segmented types
 enum SegmentedTypes: String, CaseIterable, Identifiable {
     var id: Self {
         return self

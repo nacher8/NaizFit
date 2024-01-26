@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// A view displaying metrics information.
 struct StadisticsView: View {
     var body: some View {
         HStack {

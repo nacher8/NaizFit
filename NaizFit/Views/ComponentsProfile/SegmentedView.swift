@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct SegmentedView: View {    
+// A segmented control to see the different options.
+struct SegmentedView: View {
     @ObservedObject var viewModel: ProfileViewModel
     @State private var selected: SegmentedTypes = .perks
     

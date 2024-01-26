@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+// Info Model Perk
 public struct NaizPerkModel: Decodable, Hashable {
     var id: Int
     var name: String
@@ -22,6 +23,7 @@ public struct NaizPerkDataModel: Decodable, Hashable {
     var data: [NaizPerkModel]
 }
 
+// Enum with different perk types
 enum PerkType: Codable {
     case orange
     case green

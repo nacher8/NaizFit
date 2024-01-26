@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// A view displaying personal information, including user details and completion options.
 struct PersonalInfoView: View {
     @ObservedObject var viewModel: ProfileViewModel
     

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Custom pop up with the info about the PERK.
 struct PerkConditionView: View {
     @EnvironmentObject var viewModel: ProfileViewModel
     @State private var offset: CGFloat = 100

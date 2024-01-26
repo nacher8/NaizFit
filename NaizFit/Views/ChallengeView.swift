@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// A view with the Challenge information.
 struct ChallengeView: View {
     var body: some View {
         VStack {

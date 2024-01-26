@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// A view with the Profile information.
 struct ProfileView: View {
     
     @StateObject var viewModel = ProfileViewModel()

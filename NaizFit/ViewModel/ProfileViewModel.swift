@@ -32,6 +32,8 @@ final class ProfileViewModel: ObservableObject {
         NaizPerkModel(id: 8, name: "Perk Name Eight", brand: "Brand Eight", perkType: "Perk Type (Online/Physical)", expirationDate: "19/04/2024", perkColor: .green, image: "ImagePerkTwo")
     ]
     
+    // In this case I check I we have information about the user in UserDefaults
+    // if I have information I recover it else I create a mock and save in UserDefaults
     init() {
         guard let data = UserDefaults.standard.data(forKey: "naizUser") else {
             do {
@@ -52,6 +54,7 @@ final class ProfileViewModel: ObservableObject {
         }
     }
     
+    // Call to get the info of PERKS
     func getPerks() {
         let result = service.getPerks()
         result.sink(receiveCompletion: { completion in
@@ -68,6 +71,7 @@ final class ProfileViewModel: ObservableObject {
         }).store(in: &subscriptions)
     }
     
+    // Funtion to update the height
     func saveHeight(_ height: String) {
         naizUser?.height = height.isEmpty ? "0" : height
         do {
@@ -79,6 +83,7 @@ final class ProfileViewModel: ObservableObject {
         }
     }
     
+    // Funtion to update the weight
     func saveWeight(_ weight: String) {
         naizUser?.weight = weight.isEmpty ? "0" : weight
         do {

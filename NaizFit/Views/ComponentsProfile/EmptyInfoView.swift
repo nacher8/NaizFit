@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// A view when we have not information abour PERKS.
 struct EmptyInfoView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 8) {

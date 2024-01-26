@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Custom button that we use in different parts of the app.
 struct NaizButton: View {
     var action: () -> Void
     var title: String

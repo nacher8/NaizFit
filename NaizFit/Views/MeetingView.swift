@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// A view with the Meeting information.
 struct MeetingView: View {
     @State private var isAuthenticating = false
         @State private var username = ""

@@ -9,6 +9,7 @@ import Foundation
 import Alamofire
 import Combine
 
+// Class with the calls to service.
 public class NaizService {
     private var urlNaiz: String = "https://naiz.perks.com/public"
     

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// A view with the Notification information.
 struct NotificationView: View {
     var body: some View {
         VStack {
