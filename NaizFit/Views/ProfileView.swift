@@ -27,17 +27,18 @@ struct ProfileView: View {
             }
             
             if viewModel.showCondition {
-                PerkConditionView(viewModel: viewModel)
+                PerkConditionView()
             }
             
             if viewModel.changeHeight {
-                UpdateHeightUserView(viewModel: viewModel)
+                UpdateHeightUserView()
             }
             
             if viewModel.changeWeight {
-                UpdateWeightUserView(viewModel: viewModel)
+                UpdateWeightUserView()
             }
         }
+        .environmentObject(viewModel)
     }
 }
 

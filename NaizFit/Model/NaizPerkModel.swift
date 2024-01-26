@@ -27,20 +27,16 @@ enum PerkType: Codable {
     case green
     
     var background: Color {
-        get {
-            switch self {
-            case .green: return Color.capsuleBackgroundGreen
-            case .orange: return Color.capsuleBackgroundOrange
-            }
+        switch self {
+        case .green: return Color.capsuleBackgroundGreen
+        case .orange: return Color.capsuleBackgroundOrange
         }
     }
     
     var text: Color {
-        get {
-            switch self {
-            case .green: return Color.capsuleTextGreen
-            case .orange: return Color.capsuleTextOrange
-            }
+        switch self {
+        case .green: return Color.capsuleTextGreen
+        case .orange: return Color.capsuleTextOrange
         }
     }
 }

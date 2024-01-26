@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PerkConditionView: View {
-    @ObservedObject var viewModel: ProfileViewModel
+    @EnvironmentObject var viewModel: ProfileViewModel
     @State private var offset: CGFloat = 100
     
     var body: some View {
@@ -53,7 +53,7 @@ struct PerkConditionView: View {
                     TermUseView(text: "No acumulable con otras promociones/campañas.")
                     
                     NaizButton(action: {
-                        print("Got it")
+                        close()
                     }, title: "Got it")
                     .padding(.top, 16)
                 }

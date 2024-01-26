@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct UpdateWeightUserView: View {
-    @ObservedObject var viewModel: ProfileViewModel
+    @EnvironmentObject var viewModel: ProfileViewModel
     @State private var offset: CGFloat = 100
     @State private var valueTextField: String = ""
     

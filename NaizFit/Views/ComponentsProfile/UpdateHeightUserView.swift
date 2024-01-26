@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct UpdateHeightUserView: View {
-    @ObservedObject var viewModel: ProfileViewModel
+    @EnvironmentObject var viewModel: ProfileViewModel
     @State private var offset: CGFloat = 100
     @State private var valueTextField: String = ""
     
@@ -60,8 +60,4 @@ struct UpdateHeightUserView: View {
         offset = 1000
         viewModel.changeHeight = false
     }
-}
-
-#Preview {
-    UpdateHeightUserView(viewModel: ProfileViewModel())
 }
