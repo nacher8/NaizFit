@@ -11,6 +11,28 @@
 		3905E27A2B6251D30005AC37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E2792B6251D30005AC37 /* ContentView.swift */; };
 		3905E27C2B6251D40005AC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3905E27B2B6251D40005AC37 /* Assets.xcassets */; };
 		3905E2802B6251D40005AC37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3905E27F2B6251D40005AC37 /* Preview Assets.xcassets */; };
+		3905E28A2B6252D80005AC37 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E2892B6252D80005AC37 /* ChallengeView.swift */; };
+		3905E28C2B6252EA0005AC37 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E28B2B6252EA0005AC37 /* MeetingView.swift */; };
+		3905E28E2B6252F70005AC37 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E28D2B6252F70005AC37 /* NotificationView.swift */; };
+		3905E2902B6253040005AC37 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E28F2B6253040005AC37 /* ProfileView.swift */; };
+		3905E2952B62703F0005AC37 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3905E2942B626FEC0005AC37 /* Montserrat-VariableFont_wght.ttf */; };
+		3905E2982B62754A0005AC37 /* DMSans-VariableFont_opsz,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3905E2972B62754A0005AC37 /* DMSans-VariableFont_opsz,wght.ttf */; };
+		3905E29B2B6282830005AC37 /* PersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E29A2B6282830005AC37 /* PersonalInfoView.swift */; };
+		3905E29D2B6288FC0005AC37 /* StadisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E29C2B6288FC0005AC37 /* StadisticsView.swift */; };
+		3905E29F2B628FF90005AC37 /* SegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E29E2B628FF90005AC37 /* SegmentedView.swift */; };
+		3905E2A12B62A5640005AC37 /* EmptyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E2A02B62A5640005AC37 /* EmptyInfoView.swift */; };
+		3905E2A32B62A7CC0005AC37 /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3905E2A22B62A7CC0005AC37 /* Inter-VariableFont_slnt,wght.ttf */; };
+		3905E2A52B62AC2F0005AC37 /* NaizPerkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E2A42B62AC2F0005AC37 /* NaizPerkModel.swift */; };
+		3905E2A72B62AF1A0005AC37 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E2A62B62AF1A0005AC37 /* ProfileViewModel.swift */; };
+		3905E2AA2B62B0730005AC37 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3905E2A92B62B0730005AC37 /* Alamofire */; };
+		3905E2AD2B62B2510005AC37 /* NaizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E2AC2B62B2510005AC37 /* NaizService.swift */; };
+		39AE036A2B63ABF0004F2762 /* SegmentedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE03692B63ABF0004F2762 /* SegmentedTypes.swift */; };
+		39AE036C2B63AC44004F2762 /* NaizButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE036B2B63AC44004F2762 /* NaizButton.swift */; };
+		39AE036E2B63AD0C004F2762 /* PerkInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE036D2B63AD0C004F2762 /* PerkInfoView.swift */; };
+		39AE03712B63C02F004F2762 /* PerkConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE03702B63C02F004F2762 /* PerkConditionView.swift */; };
+		39AE03732B63D964004F2762 /* NaizUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE03722B63D964004F2762 /* NaizUserModel.swift */; };
+		39AE03752B63E451004F2762 /* UpdateHeightUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE03742B63E451004F2762 /* UpdateHeightUserView.swift */; };
+		39AE03772B63ED46004F2762 /* UpdateWeightUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE03762B63ED46004F2762 /* UpdateWeightUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +42,28 @@
 		3905E27B2B6251D40005AC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3905E27D2B6251D40005AC37 /* NaizFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NaizFit.entitlements; sourceTree = "<group>"; };
 		3905E27F2B6251D40005AC37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3905E2892B6252D80005AC37 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		3905E28B2B6252EA0005AC37 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		3905E28D2B6252F70005AC37 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		3905E28F2B6253040005AC37 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3905E2942B626FEC0005AC37 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		3905E2962B6270770005AC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3905E2972B62754A0005AC37 /* DMSans-VariableFont_opsz,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-VariableFont_opsz,wght.ttf"; sourceTree = "<group>"; };
+		3905E29A2B6282830005AC37 /* PersonalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoView.swift; sourceTree = "<group>"; };
+		3905E29C2B6288FC0005AC37 /* StadisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadisticsView.swift; sourceTree = "<group>"; };
+		3905E29E2B628FF90005AC37 /* SegmentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedView.swift; sourceTree = "<group>"; };
+		3905E2A02B62A5640005AC37 /* EmptyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyInfoView.swift; sourceTree = "<group>"; };
+		3905E2A22B62A7CC0005AC37 /* Inter-VariableFont_slnt,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-VariableFont_slnt,wght.ttf"; sourceTree = "<group>"; };
+		3905E2A42B62AC2F0005AC37 /* NaizPerkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaizPerkModel.swift; sourceTree = "<group>"; };
+		3905E2A62B62AF1A0005AC37 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		3905E2AC2B62B2510005AC37 /* NaizService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaizService.swift; sourceTree = "<group>"; };
+		39AE03692B63ABF0004F2762 /* SegmentedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedTypes.swift; sourceTree = "<group>"; };
+		39AE036B2B63AC44004F2762 /* NaizButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaizButton.swift; sourceTree = "<group>"; };
+		39AE036D2B63AD0C004F2762 /* PerkInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerkInfoView.swift; sourceTree = "<group>"; };
+		39AE03702B63C02F004F2762 /* PerkConditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerkConditionView.swift; sourceTree = "<group>"; };
+		39AE03722B63D964004F2762 /* NaizUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaizUserModel.swift; sourceTree = "<group>"; };
+		39AE03742B63E451004F2762 /* UpdateHeightUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateHeightUserView.swift; sourceTree = "<group>"; };
+		39AE03762B63ED46004F2762 /* UpdateWeightUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateWeightUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3905E2AA2B62B0730005AC37 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +97,13 @@
 		3905E2762B6251D30005AC37 /* NaizFit */ = {
 			isa = PBXGroup;
 			children = (
+				3905E2962B6270770005AC37 /* Info.plist */,
+				3905E2912B626D2F0005AC37 /* Fonts */,
+				3905E2882B6252820005AC37 /* Model */,
+				3905E2872B6252780005AC37 /* Views */,
+				3905E2862B62525B0005AC37 /* ViewModel */,
+				3905E2AB2B62B22D0005AC37 /* Service */,
 				3905E2772B6251D30005AC37 /* NaizFitApp.swift */,
-				3905E2792B6251D30005AC37 /* ContentView.swift */,
 				3905E27B2B6251D40005AC37 /* Assets.xcassets */,
 				3905E27D2B6251D40005AC37 /* NaizFit.entitlements */,
 				3905E27E2B6251D40005AC37 /* Preview Content */,
@@ -67,6 +117,79 @@
 				3905E27F2B6251D40005AC37 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3905E2862B62525B0005AC37 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3905E2A62B62AF1A0005AC37 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3905E2872B6252780005AC37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39AE036F2B63B2CA004F2762 /* Components */,
+				3905E2992B62826C0005AC37 /* ComponentsProfile */,
+				3905E2792B6251D30005AC37 /* ContentView.swift */,
+				3905E2892B6252D80005AC37 /* ChallengeView.swift */,
+				3905E28B2B6252EA0005AC37 /* MeetingView.swift */,
+				3905E28D2B6252F70005AC37 /* NotificationView.swift */,
+				3905E28F2B6253040005AC37 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3905E2882B6252820005AC37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3905E2A42B62AC2F0005AC37 /* NaizPerkModel.swift */,
+				39AE03692B63ABF0004F2762 /* SegmentedTypes.swift */,
+				39AE03722B63D964004F2762 /* NaizUserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3905E2912B626D2F0005AC37 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3905E2A22B62A7CC0005AC37 /* Inter-VariableFont_slnt,wght.ttf */,
+				3905E2942B626FEC0005AC37 /* Montserrat-VariableFont_wght.ttf */,
+				3905E2972B62754A0005AC37 /* DMSans-VariableFont_opsz,wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3905E2992B62826C0005AC37 /* ComponentsProfile */ = {
+			isa = PBXGroup;
+			children = (
+				3905E29A2B6282830005AC37 /* PersonalInfoView.swift */,
+				3905E29C2B6288FC0005AC37 /* StadisticsView.swift */,
+				3905E29E2B628FF90005AC37 /* SegmentedView.swift */,
+				3905E2A02B62A5640005AC37 /* EmptyInfoView.swift */,
+				39AE036D2B63AD0C004F2762 /* PerkInfoView.swift */,
+				39AE03702B63C02F004F2762 /* PerkConditionView.swift */,
+				39AE03742B63E451004F2762 /* UpdateHeightUserView.swift */,
+				39AE03762B63ED46004F2762 /* UpdateWeightUserView.swift */,
+			);
+			path = ComponentsProfile;
+			sourceTree = "<group>";
+		};
+		3905E2AB2B62B22D0005AC37 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3905E2AC2B62B2510005AC37 /* NaizService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		39AE036F2B63B2CA004F2762 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				39AE036B2B63AC44004F2762 /* NaizButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +208,9 @@
 			dependencies = (
 			);
 			name = NaizFit;
+			packageProductDependencies = (
+				3905E2A92B62B0730005AC37 /* Alamofire */,
+			);
 			productName = NaizFit;
 			productReference = 3905E2742B6251D30005AC37 /* NaizFit.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +239,9 @@
 				Base,
 			);
 			mainGroup = 3905E26B2B6251D30005AC37;
+			packageReferences = (
+				3905E2A82B62B0730005AC37 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 3905E2752B6251D30005AC37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3905E2802B6251D40005AC37 /* Preview Assets.xcassets in Resources */,
+				3905E2A32B62A7CC0005AC37 /* Inter-VariableFont_slnt,wght.ttf in Resources */,
+				3905E2952B62703F0005AC37 /* Montserrat-VariableFont_wght.ttf in Resources */,
+				3905E2982B62754A0005AC37 /* DMSans-VariableFont_opsz,wght.ttf in Resources */,
 				3905E27C2B6251D40005AC37 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +271,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3905E2AD2B62B2510005AC37 /* NaizService.swift in Sources */,
+				3905E28C2B6252EA0005AC37 /* MeetingView.swift in Sources */,
+				39AE03772B63ED46004F2762 /* UpdateWeightUserView.swift in Sources */,
 				3905E27A2B6251D30005AC37 /* ContentView.swift in Sources */,
+				3905E2A52B62AC2F0005AC37 /* NaizPerkModel.swift in Sources */,
+				39AE036A2B63ABF0004F2762 /* SegmentedTypes.swift in Sources */,
+				39AE03712B63C02F004F2762 /* PerkConditionView.swift in Sources */,
+				3905E29F2B628FF90005AC37 /* SegmentedView.swift in Sources */,
+				39AE036E2B63AD0C004F2762 /* PerkInfoView.swift in Sources */,
 				3905E2782B6251D30005AC37 /* NaizFitApp.swift in Sources */,
+				3905E29B2B6282830005AC37 /* PersonalInfoView.swift in Sources */,
+				3905E2A72B62AF1A0005AC37 /* ProfileViewModel.swift in Sources */,
+				3905E28A2B6252D80005AC37 /* ChallengeView.swift in Sources */,
+				3905E2A12B62A5640005AC37 /* EmptyInfoView.swift in Sources */,
+				3905E29D2B6288FC0005AC37 /* StadisticsView.swift in Sources */,
+				3905E2902B6253040005AC37 /* ProfileView.swift in Sources */,
+				39AE036C2B63AC44004F2762 /* NaizButton.swift in Sources */,
+				39AE03752B63E451004F2762 /* UpdateHeightUserView.swift in Sources */,
+				39AE03732B63D964004F2762 /* NaizUserModel.swift in Sources */,
+				3905E28E2B6252F70005AC37 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +424,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaizFit/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -312,6 +463,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaizFit/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -359,6 +511,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3905E2A82B62B0730005AC37 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3905E2A92B62B0730005AC37 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3905E2A82B62B0730005AC37 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3905E26C2B6251D30005AC37 /* Project object */;
 }
