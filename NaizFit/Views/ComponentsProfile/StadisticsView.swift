@@ -9,19 +9,21 @@ import SwiftUI
 
 // A view displaying metrics information.
 struct StadisticsView: View {
+    @ObservedObject var viewModel: ProfileViewModel
+    
     var body: some View {
         HStack {
-            StadisticsComponentView(stadisticInfo: "1000", stadisticTitle: "NEPS")
+            StadisticsComponentView(stadisticInfo: viewModel.naizUser?.neps ?? "", stadisticTitle: "NEPS")
             Spacer()
             Divider()
                 .frame(width: 1.0, height: 38)
             Spacer()
-            StadisticsComponentView(stadisticInfo: "23", stadisticTitle: "Reports")
+            StadisticsComponentView(stadisticInfo: viewModel.naizUser?.reports ?? "", stadisticTitle: "Reports")
             Spacer()
             Divider()
                 .frame(width: 1.0, height: 38)
             Spacer()
-            StadisticsComponentView(stadisticInfo: "1000", stadisticTitle: "Coins")
+            StadisticsComponentView(stadisticInfo: viewModel.naizUser?.coins ?? "", stadisticTitle: "Coins")
         }
         .padding(.horizontal, 48)
     }
@@ -48,8 +50,4 @@ struct StadisticsComponentView: View {
                 .foregroundStyle(Color.naizGrey)
         }
     }
-}
-
-#Preview {
-    StadisticsView()
 }

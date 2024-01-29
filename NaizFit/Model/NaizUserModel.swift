@@ -16,4 +16,7 @@ public struct NaizUserModel: Codable, Hashable {
     var height: String
     var weight: String
     var qrCode: String
+    var neps: String
+    var reports: String
+    var coins: String
 }

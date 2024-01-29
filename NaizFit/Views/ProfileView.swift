@@ -17,7 +17,7 @@ struct ProfileView: View {
             VStack(spacing: 32) {
                 PersonalInfoView(viewModel: viewModel)
                 
-                StadisticsView()
+                StadisticsView(viewModel: viewModel)
                 
                 SegmentedView(viewModel: viewModel)
             }

@@ -37,7 +37,7 @@ final class ProfileViewModel: ObservableObject {
     init() {
         guard let data = UserDefaults.standard.data(forKey: "naizUser") else {
             do {
-                naizUser = NaizUserModel(id: "1", name: "Maria Peralta", level: "10", nextLevel: "300 NEPS to next level", height: "168", weight: "74", qrCode: "QRCode")
+                naizUser = NaizUserModel(id: "1", name: "Maria Peralta", level: "10", nextLevel: "300 NEPS to next level", height: "168", weight: "74", qrCode: "QRCode", neps: "1000", reports: "23", coins: "1000")
                 let encoder = JSONEncoder()
                 let data = try encoder.encode(naizUser)
                 UserDefaults.standard.set(data, forKey: "naizUser")
