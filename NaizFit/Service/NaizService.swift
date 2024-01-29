@@ -10,10 +10,10 @@ import Alamofire
 import Combine
 
 // Class with the calls to service.
-public class NaizService {
+public class NaizService: NaizServiceProtocol {
     private var urlNaiz: String = "https://naiz.perks.com/public"
     
-    public func getPerks() -> Future<NaizPerkDataModel, Error> {
+    func getPerks() -> Future<NaizPerkDataModel, Error> {
         return Future<NaizPerkDataModel, Error> { promise in
             AF.request(self.urlNaiz, method: .get)
                 .responseDecodable(of: NaizPerkDataModel.self) { response in

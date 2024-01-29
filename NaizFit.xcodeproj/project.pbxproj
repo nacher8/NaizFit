@@ -26,6 +26,7 @@
 		3905E2A72B62AF1A0005AC37 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E2A62B62AF1A0005AC37 /* ProfileViewModel.swift */; };
 		3905E2AA2B62B0730005AC37 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3905E2A92B62B0730005AC37 /* Alamofire */; };
 		3905E2AD2B62B2510005AC37 /* NaizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905E2AC2B62B2510005AC37 /* NaizService.swift */; };
+		39461B902B67B63500A12D44 /* NaizServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39461B8F2B67B63500A12D44 /* NaizServiceProtocol.swift */; };
 		39AE036A2B63ABF0004F2762 /* SegmentedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE03692B63ABF0004F2762 /* SegmentedTypes.swift */; };
 		39AE036C2B63AC44004F2762 /* NaizButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE036B2B63AC44004F2762 /* NaizButton.swift */; };
 		39AE036E2B63AD0C004F2762 /* PerkInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE036D2B63AD0C004F2762 /* PerkInfoView.swift */; };
@@ -57,6 +58,7 @@
 		3905E2A42B62AC2F0005AC37 /* NaizPerkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaizPerkModel.swift; sourceTree = "<group>"; };
 		3905E2A62B62AF1A0005AC37 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		3905E2AC2B62B2510005AC37 /* NaizService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaizService.swift; sourceTree = "<group>"; };
+		39461B8F2B67B63500A12D44 /* NaizServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaizServiceProtocol.swift; sourceTree = "<group>"; };
 		39AE03692B63ABF0004F2762 /* SegmentedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedTypes.swift; sourceTree = "<group>"; };
 		39AE036B2B63AC44004F2762 /* NaizButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaizButton.swift; sourceTree = "<group>"; };
 		39AE036D2B63AD0C004F2762 /* PerkInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerkInfoView.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				3905E2AC2B62B2510005AC37 /* NaizService.swift */,
+				39461B8F2B67B63500A12D44 /* NaizServiceProtocol.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				39AE03712B63C02F004F2762 /* PerkConditionView.swift in Sources */,
 				3905E29F2B628FF90005AC37 /* SegmentedView.swift in Sources */,
 				39AE036E2B63AD0C004F2762 /* PerkInfoView.swift in Sources */,
+				39461B902B67B63500A12D44 /* NaizServiceProtocol.swift in Sources */,
 				3905E2782B6251D30005AC37 /* NaizFitApp.swift in Sources */,
 				3905E29B2B6282830005AC37 /* PersonalInfoView.swift in Sources */,
 				3905E2A72B62AF1A0005AC37 /* ProfileViewModel.swift in Sources */,
